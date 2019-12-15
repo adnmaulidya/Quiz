@@ -1,0 +1,222 @@
+{
+  "Category" : {
+    "01" : {
+      "Image" : "https://media.suara.com/pictures/653x366/2016/10/05/o_1aua26rs31hql2aavjq1ovvj77a.jpg",
+      "Name" : "Matematika"
+    },
+    "02" : {
+      "Image" : "https://www.ayoksinau.com/wp-content/uploads/2019/08/sejarah.png",
+      "Name" : "Sejarah"
+    },
+    "03" : {
+      "Image" : "https://m.smartfren.com/assets/img/news/news-266.jpg",
+      "Name" : "Teknologi"
+    },
+    "04" : {
+      "Image" : "https://fluencycorp.com/wp-content/uploads/2019/01/hardest-part-learning-english.jpg",
+      "Name" : "English"
+    },
+    "05" : {
+      "Image" : "https://pbs.twimg.com/profile_images/852350910743232512/J2mvF07u.png",
+      "Name" : "Pengetahuan Umum"
+    },
+    "06" : {
+      "Image" : "https://cdn2.tstatic.net/tribunnews/foto/bank/images/ilustrasi-harimau-17112019.jpg",
+      "Name" : "Hewan"
+    }
+  },
+  "Questions" : {
+    "01" : {
+      "AnswerA" : "15",
+      "AnswerB" : "30",
+      "AnswerC" : "6",
+      "AnswerD" : "14",
+      "CategoryId" : "01",
+      "CorrectAnswer" : "15",
+      "IsImageQuestion" : "false",
+      "Question" : "30 : 2 ="
+    },
+    "02" : {
+      "AnswerA" : "Segitiga sama kaki",
+      "AnswerB" : "Segitiga siku siku",
+      "AnswerC" : "Persegi",
+      "AnswerD" : "Lingkaran",
+      "CategoryId" : "01",
+      "CorrectAnswer" : "Segitiga siku siku",
+      "IsImageQuestion" : "true",
+      "Question" : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rtriangle.svg/1200px-Rtriangle.svg.png"
+    },
+    "03" : {
+      "AnswerA" : "50",
+      "AnswerB" : "10",
+      "AnswerC" : "30",
+      "AnswerD" : "20",
+      "CategoryId" : "01",
+      "CorrectAnswer" : "20",
+      "IsImageQuestion" : "false",
+      "Question" : "60 - 40 ="
+    },
+    "04" : {
+      "AnswerA" : "Thomas Alva Edison",
+      "AnswerB" : "Haryo",
+      "AnswerC" : "Bambang",
+      "AnswerD" : "Adn",
+      "CategoryId" : "02",
+      "CorrectAnswer" : "Thomas Alva Edison",
+      "IsImageQuestion" : "false",
+      "Question" : "Siapakah Penemu Lampu ....."
+    },
+    "05" : {
+      "AnswerA" : "Pangeran Diponegoro",
+      "AnswerB" : "Ucok",
+      "AnswerC" : "Kartini",
+      "AnswerD" : "Habibie",
+      "CategoryId" : "02",
+      "CorrectAnswer" : "Pangeran Diponegoro",
+      "IsImageQuestion" : "true",
+      "Question" : "https://jagad.id/wp-content/uploads/2019/02/Pangeran-Diponegoro.jpeg"
+    },
+    "06" : {
+      "AnswerA" : "Infantri",
+      "AnswerB" : "Barbarian",
+      "AnswerC" : "Kavileri",
+      "AnswerD" : "Gladiator",
+      "CategoryId" : "02",
+      "CorrectAnswer" : "Kavileri",
+      "IsImageQuestion" : "false",
+      "Question" : "Disebut apakah prajurit penunggang kuda ....."
+    },
+    "07" : {
+      "AnswerA" : "Hewlett-Packard",
+      "AnswerB" : "Harapan Palsu",
+      "AnswerC" : "Hampa Pulau",
+      "AnswerD" : "Hampar Pisang",
+      "CategoryId" : "03",
+      "CorrectAnswer" : "Hewlett-Packard",
+      "IsImageQuestion" : "false",
+      "Question" : "Apakah kepanjangan HP ....."
+    },
+    "08" : {
+      "AnswerA" : "Scanner",
+      "AnswerB" : "Mouse",
+      "AnswerC" : "CPU",
+      "AnswerD" : "Printer",
+      "CategoryId" : "03",
+      "CorrectAnswer" : "Printer",
+      "IsImageQuestion" : "true",
+      "Question" : "https://sastabazaar.in/wp-content/uploads/2019/05/61-0Tco3ZgL._SL1432_.jpg"
+    },
+    "09" : {
+      "AnswerA" : "docx",
+      "AnswerB" : "ppt",
+      "AnswerC" : "xls",
+      "AnswerD" : "html",
+      "CategoryId" : "03",
+      "CorrectAnswer" : "docx",
+      "IsImageQuestion" : "false",
+      "Question" : "format file word adalah ....."
+    },
+    "10" : {
+      "AnswerA" : "Does",
+      "AnswerB" : "Do",
+      "AnswerC" : "Are",
+      "AnswerD" : "Is",
+      "CategoryId" : "04",
+      "CorrectAnswer" : "Is",
+      "IsImageQuestion" : "false",
+      "Question" : "Gina cooks fried rice. It ... amazing."
+    },
+    "11" : {
+      "AnswerA" : "Motorcycle",
+      "AnswerB" : "car",
+      "AnswerC" : "Apple",
+      "AnswerD" : "Pen",
+      "CategoryId" : "04",
+      "CorrectAnswer" : "Car",
+      "IsImageQuestion" : "true",
+      "Question" : "https://www.extremetech.com/wp-content/uploads/2019/05/637873-tesla-model-s-2019-640x360.jpg"
+    },
+    "12" : {
+      "AnswerA" : "Is",
+      "AnswerB" : "Are",
+      "AnswerC" : "Am",
+      "AnswerD" : "Is not",
+      "CategoryId" : "04",
+      "CorrectAnswer" : "Are",
+      "IsImageQuestion" : "false",
+      "Question" : "Tomy, Jane, Mark, Sarah ... smart students."
+    },
+    "13" : {
+      "AnswerA" : "10 GB",
+      "AnswerB" : "8 GB",
+      "AnswerC" : "7,5 GB",
+      "AnswerD" : "7,2 GB",
+      "CategoryId" : "05",
+      "CorrectAnswer" : "7,2 GB",
+      "IsImageQuestion" : "false",
+      "Question" : "Umumnya flashdisk 8 GB hanya bisa diisi data sebesar ....."
+    },
+    "14" : {
+      "AnswerA" : "Dilarang berhenti",
+      "AnswerB" : "Dilarang merokok",
+      "AnswerC" : "Rawan Kecelakaan",
+      "AnswerD" : "Bebas asap rokok",
+      "CategoryId" : "05",
+      "CorrectAnswer" : "Dilarang Berhenti",
+      "IsImageQuestion" : "true",
+      "Question" : "http://1.bp.blogspot.com/-YVs14x5EerI/UWJjnBsz-LI/AAAAAAAAARE/r2SxtsRbCaY/s1600/Rambu_stop.jpg"
+    },
+    "15" : {
+      "AnswerA" : "Selatan",
+      "AnswerB" : "Timur",
+      "AnswerC" : "Utara",
+      "AnswerD" : "Barat",
+      "CategoryId" : "05",
+      "CorrectAnswer" : "Utara",
+      "IsImageQuestion" : "false",
+      "Question" : "Orang Jawa menyebut Lor untuk arah ..... "
+    },
+    "16" : {
+      "AnswerA" : "Gajah",
+      "AnswerB" : "Harimau",
+      "AnswerC" : "Singa",
+      "AnswerD" : "Tikus",
+      "CategoryId" : "06",
+      "CorrectAnswer" : "Gajah",
+      "IsImageQuestion" : "false",
+      "Question" : "Memiliki gading dan bertubuh besar ....."
+    },
+    "17" : {
+      "AnswerA" : "Singa",
+      "AnswerB" : "Paus",
+      "AnswerC" : "Keledai",
+      "AnswerD" : "Macan tutul",
+      "CategoryId" : "06",
+      "CorrectAnswer" : "Singa",
+      "IsImageQuestion" : "true",
+      "Question" : "https://www.inspiradata.com/wp-content/uploads/2018/04/singa.jpg"
+    },
+    "18" : {
+      "AnswerA" : "Anggur",
+      "AnswerB" : "Timun",
+      "AnswerC" : "Selada",
+      "AnswerD" : "Ikan",
+      "CategoryId" : "06",
+      "CorrectAnswer" : "Ikan",
+      "IsImageQuestion" : "false",
+      "Question" : "Makanan kesukaan kucing ..... "
+    }
+  },
+  "Users" : {
+    "dimas" : {
+      "email" : "dimas@gmail.com",
+      "password" : "abcd",
+      "userName" : "dimas"
+    },
+    "haryo" : {
+      "email" : "haryo@gmail.com",
+      "password" : "12344",
+      "userName" : "haryo"
+    }
+  }
+}

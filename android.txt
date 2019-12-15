@@ -1,0 +1,94 @@
+membuat model dengan isi informasi :
+- username
+- pass 
+- email
+
+membuat activity untuk home screen 
+
+membuat fragment show categories dan ranking  =fragment adalah kombinasi dari sebuah layout xml dan kelas java dan bisa diimplementasikan kebeberapa activity
+
+design category , sebelum itu membuat json file dengan objgen lalu meng export file json yang berada pada console firebase
+
+kemudian copy json yang telah dibuat pada objgen kemudian paste pada json yg telah diexport, kemudian save dan import kembali json
+
+membuat fungsi untuk load kategori di fragment 
+
+membuat model category untuk menguraikan data yang didapat dai database
+categoryviewholder digunakan untuk memproses tiap item pada recyler adapter........ adapter adalah Adapter adalah jembatan antara dan AdapterView 
+(contohnya ListView) dengan data
+itemclilcklistener interface untuk mengimplementasikan onclick pada recyle item
+
+selanjutnya menambahkan library firebaseui(untuk menggunakan firebaserecyleradapter) dan picasso(untuk load gambar dri internet)
+
+pindah ke activity lain mengunakan intent(mainactivity)
+
+set fragment ketika user memilih navigation bar(home)
+
+membuat common.java untuk memasukkan seluruh variabel
+
+membuat struktur pertanyaan di objgen
+
+export json lama yg berada di console lalu tambahkan dengan struktur pertanyaan lalu import kembali
+
+membuat tampilan saat bermain di activity start(buat dulu)
+
+deklarasi struktur/model pertanyaan(model/question.java)
+
+membuat variabel untuk list pertanyaan(common.java)
+
+membuat activity playing
+
+didalam xml playing kita membuat image view dan text view diposisi yang sama karena kita akan memiliki 2 jenis pertanyaan(foto dan teks)
+hal ini dilakukan agar jika pertanyaan berupa teks maka kita akan nge set visible dari gambar menjadi invisible dan sebaliknya
+
+mmebuat activity done jika jawaban yg dipilih salah
+
+ketika menekan start,akan menampilkan seluruh pertanyaan berdasarkan categorylist, random list , after that dan show question
+
+jika user memilih jawaban benar akan dilanjutkan ke pertanyaan berikutnya jika salah permainan akan berhenti
+
+untuk load pertanyaan di coding pada start.java
+
+selanjutnya mengedit done.activity karena ketika salah memilih kita akan diarahkan ke activity ini
+
+membuat table baru bernama question score karena firebase merupakan realtime database dan tidak support dibeberapa query 
+contohnya ketika kita membutuhkan get score user by category kita membutuhkan query
+tetapi di firebase kita tdk dapat melakukan itu
+jadi membutuhkan 
+-user dan category adalah key ( haryo_01)
+-membuat value : user_category,user,category
+
+selanjutnya membuat questionscore model (model)
+bundle digunakan untuk mengirim data antar activity
+
+selanjutnya membuat ranking all user ( ranking akan dihitung)
+merangkum semua score user di Question_table dan update ranking
+sort ranking dan dapat lisnya
+
+ketika user memilih frgament ranking akan memilih semua nilai dari user dan akan di upload ke table ranking
+mmebuat model ranking
+setelah itu tambahkan seluruh score pada question Score dan upload ke ranking(rankingfragment.java)
+
+membuatRecycler view untuk menampilkan list ranking(ranking fragment xml)
+
+selanjutnya membuat layout untuk menampilkan item ranking , dan ranking view holder(membuat xml layout)
+
+menambahkan oindexon pada kolom ranking dan score di console agar menambah perfomance pada tabel
+
+selanjutnya menambah detail pada score ( ketika menkan akan keluar masing2 score dari masing2 category)
+
+pertama modifikasi class(model) QuestionScore ( menambahkan CategoryId dan categoryname)
+
+memperbaiki beberapa error karena telah menambah constructor , error pada done.java
+
+membuat activity baru buat menampilkan detail score(detailScore)
+
+menambahkan layout baru untuk menampilkan score dan nama masing2 kategori(score_detail_layout)
+
+membuat view holder untuk score detail(scoredetailviewholder)
+
+selanjutnya mmebuat ketika user click ranking board maka akan mengambil seluruh data mengenai score dengan username tsb
+
+
+
+
