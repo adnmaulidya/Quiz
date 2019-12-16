@@ -1,4 +1,4 @@
-package com.example.quiz;
+package com.example.quiz.Fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,11 +10,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.example.quiz.Common.Common;
 import com.example.quiz.Interface.ItemClicklistener;
 import com.example.quiz.Model.Category;
+import com.example.quiz.R;
+import com.example.quiz.Activity.Start;
 import com.example.quiz.ViewHolder.CategoryViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
@@ -80,7 +81,7 @@ public class CategoryFragment extends Fragment {
                        @Override
                        public void onClick(View view, int position, boolean isLongClick) {
                             //Toast.makeText(getActivity(), String.format("%s|%s",adapter.getRef(position).getKey(),model.getName()), Toast.LENGTH_SHORT).show();
-                           Intent startGame = new Intent(getActivity(),Start.class);
+                           Intent startGame = new Intent(getActivity(), Start.class);
                            Common.categoryId = adapter.getRef(position).getKey();
                            Common.categoryName = model.getName();
                            startActivity(startGame);

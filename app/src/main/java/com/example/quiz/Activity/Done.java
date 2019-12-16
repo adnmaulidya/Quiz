@@ -1,4 +1,4 @@
-package com.example.quiz;
+package com.example.quiz.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.quiz.Common.Common;
 import com.example.quiz.Model.QuestionScore;
+import com.example.quiz.R;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -59,9 +60,9 @@ public class Done extends AppCompatActivity {
             progressbar.setProgress(correctAnswer);
 
             //upload point ke firebase
-            question_score.child(String.format("%s_%s", Common.currentUser.getUserName(),
+            question_score.child(String.format("%s_%s ", Common.currentUser.getUserName(),
                                     Common.categoryId))
-                    .setValue(new QuestionScore(String.format("%s_%s", Common.currentUser.getUserName(),
+                    .setValue(new QuestionScore(String.format("%s_%s ", Common.currentUser.getUserName(),
                             Common.categoryId),
                             Common.currentUser.getUserName(),
                             String.valueOf(score),

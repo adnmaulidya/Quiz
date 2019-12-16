@@ -4,27 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher_foreground"
-    tools:context=".Playing">
+    android:background="@android:color/white"
+    tools:context=".Activity.Playing">
 
     <ImageView
         android:id="@+id/question_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/question_text"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="78dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/question_text"
+        android:visibility="invisible"
+        android:textSize="20dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
         android:gravity="center"
         android:layout_width="300dp"
-        android:layout_height="200dp"/>
-
-    <TextView
-        android:id="@+id/question_text"
-        android:visibility="invisible"
-        android:textSize="30dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:gravity="center"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <RelativeLayout
@@ -52,6 +56,7 @@
                     android:textColor="@android:color/white"
                     android:gravity="center_horizontal"
                     android:text="0"
+                    android:fontFamily="@font/montserrat_semi_bold"
                     android:textSize="36sp"
                     android:layout_weight="1"
                     android:layout_width="0dp"
@@ -61,7 +66,8 @@
                     android:id="@+id/txtTotalQuestion"
                     android:textColor="@android:color/white"
                     android:gravity="center_horizontal"
-                    android:text="1/30"
+                    android:fontFamily="@font/montserrat_semi_bold"
+                    android:text="1 / 30"
                     android:textSize="36sp"
                     android:layout_weight="1"
                     android:layout_width="0dp"
@@ -84,9 +90,10 @@
                 android:text="Answer A"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:theme="@style/MyButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:background="#ff9a80"
+                android:background="#03A9F4"
                 android:layout_margin="8dp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"
@@ -94,12 +101,13 @@
 
             <Button
                 android:id="@+id/btnAnswerB"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:text="Answer B"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:theme="@style/MyButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:background="#ff9a80"
+                android:background="#8BC34A"
                 android:layout_margin="8dp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"
@@ -108,11 +116,12 @@
             <Button
                 android:id="@+id/btnAnswerC"
                 android:text="Answer C"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:theme="@style/MyButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:background="#ff9a80"
+                android:background="#FFC107"
                 android:layout_margin="8dp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"
@@ -121,11 +130,12 @@
             <Button
                 android:id="@+id/btnAnswerD"
                 android:text="Answer D"
+                android:fontFamily="@font/montserrat_semi_bold"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:theme="@style/MyButton"
                 style="@style/Widget.AppCompat.Button.Borderless"
-                android:background="#ff9a80"
+                android:background="#F44336"
                 android:layout_margin="8dp"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:layout_width="match_parent"

@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.quiz.Activity.Home;
 import com.example.quiz.Common.Common;
 import com.example.quiz.Model.User;
 import com.google.firebase.database.DataSnapshot;
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                         User login = dataSnapshot.child(user).getValue(User.class);
                         if(login.getPassword().equals(pwd)){
                             //untuk pindah ke activity lain
-                            Intent homeActivity = new Intent(MainActivity.this,Home.class);
+                            Intent homeActivity = new Intent(MainActivity.this, Home.class);
                             Common.currentUser = login;
                             startActivity(homeActivity);
                             finish();

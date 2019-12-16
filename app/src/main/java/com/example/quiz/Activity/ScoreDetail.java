@@ -1,4 +1,4 @@
-package com.example.quiz;
+package com.example.quiz.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.os.Bundle;
 
 import com.example.quiz.Model.QuestionScore;
+import com.example.quiz.R;
 import com.example.quiz.ViewHolder.ScoreDetailViewHolder;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;

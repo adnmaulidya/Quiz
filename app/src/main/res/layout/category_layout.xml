@@ -13,6 +13,7 @@
     <TextView
         android:id="@+id/category_name"
         android:text="Category Name"
+        android:fontFamily="@font/montserrat_semi_bold"
         android:textColor="@android:color/white"
         android:textSize="24sp"
         android:gravity="center"

@@ -1,4 +1,4 @@
-package com.example.quiz;
+package com.example.quiz.Activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,7 @@ import android.widget.Button;
 
 import com.example.quiz.Common.Common;
 import com.example.quiz.Model.Question;
+import com.example.quiz.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

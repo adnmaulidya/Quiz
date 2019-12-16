@@ -1,4 +1,4 @@
-package com.example.quiz;
+package com.example.quiz.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,8 +12,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.example.quiz.Common.Common;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
+import com.example.quiz.R;
 import com.squareup.picasso.Picasso;
 
 public class Playing extends AppCompatActivity implements View.OnClickListener {
@@ -80,14 +79,14 @@ public class Playing extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent);
                 finish();
             }
-            txtScore.setText(String.format("%d",score));
+            txtScore.setText(String.format("%d ",score));
         }
     }
 
     private void showQuestion(int index) {
         if (index < totalQuestion){
             thisQuestion++;
-            txtQuestionNum.setText(String.format("%d/ %d",thisQuestion,totalQuestion));
+            txtQuestionNum.setText(String.format("%d / %d",thisQuestion,totalQuestion));
             progressBar.setProgress(0);
             progressValue=0;
 

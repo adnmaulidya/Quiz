@@ -7,23 +7,24 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_1"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo_1"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScoreDetail"></activity>
-        <activity android:name=".Done" />
-        <activity android:name=".Playing" />
-        <activity android:name=".Start" />
-        <activity android:name=".Home" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activity.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activity.ScoreDetail" />
+        <activity android:name=".Activity.Done" />
+        <activity android:name=".Activity.Playing" />
+        <activity android:name=".Activity.Start" />
+        <activity android:name=".Activity.Home" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
