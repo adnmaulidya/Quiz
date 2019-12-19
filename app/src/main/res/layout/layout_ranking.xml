@@ -17,23 +17,23 @@
 
         <TextView
             android:id="@+id/txt_name"
-            android:text="Name"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:textSize="24sp"
-            android:textColor="@color/colorPrimary"
             android:fontFamily="@font/montserrat_semi_bold"
-            android:layout_weight="8"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"/>
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
 
         <TextView
             android:id="@+id/txt_score"
-            android:layout_width="0dp"
+            android:layout_width="189dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
             android:fontFamily="@font/montserrat_semi_bold"
             android:text="Score"
-            android:textColor="@color/colorPrimary"
+            android:textAlignment="center"
+            android:textColor="#000000"
             android:textSize="24sp" />
 
     </LinearLayout>

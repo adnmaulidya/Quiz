@@ -17,12 +17,4 @@
         app:showAsAction="ifRoom"
         android:icon="@drawable/ic_star_black_24dp"/>
 
-    <item
-        android:id="@+id/prefe"
-        android:enabled="true"
-        android:title="Setting"
-        app:showAsAction="ifRoom"
-        android:icon="@drawable/ic_settings_black_24dp"/>
-
-
 </menu>

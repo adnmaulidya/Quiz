@@ -18,7 +18,7 @@
         android:textSize="24sp"
         android:gravity="center"
         android:layout_alignParentBottom="true"
-        android:background="#4F0e0d0e"
+        android:background="#4F797272"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
